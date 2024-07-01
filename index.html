@@ -10,21 +10,27 @@
     <header class="cabecalho">
         <img class="imagem__alura" src="./img/Logo-alura.png" alt="Logo da Alura">
     </header>
-    <main class="principal">
-        <section class="principal__criptografia">
-            <input placeholder="Digite seu texto" class="principal__criptografia__texto__cripto" type="text">
-            <div class="principal__criptografia__aviso">
+    <main class="apresentacao">
+        <section class="apresentacao__principal">
+            <!-- <input type="text" placeholder="Digite seu texto" class="apresentacao__principal__texto__cripto"> -->
+            <textarea placeholder="Digite seu texto" class="apresentacao__principal__texto__cripto" name="text__area" id="cripto"></textarea>
+            <div class="apresentacao__principal__aviso">
                 <img src="./img/bi_exclamation-circle-fill.png" alt="Exclamação">
                 <p>Apenas letras minusculas e sem acento</p>
             </div>
-            <div class="principal__botoes">
-                <button onclick="" class="principal__botoes__criptografar">Criptografar</button>
-                <button onclick="" class="principal__botoes__criptografar">Descriptografar</button>
+            <div class="apresentacao__botoes">
+                <button onclick="" class="apresentacao__principal__botoes">Criptografar</button>
+                <button onclick="" class="apresentacao__principal__botoes">Descriptografar</button>
             </div>
         </section>
-        <!-- <section class="secundario__criptografia">
-            <input type="text">
-        </section> -->
+        <section class="apresentacao__secundario">
+            <!-- <textarea type="text"></textarea> -->
+            <div class="apresentacao__secundario__informacoes">
+                <img src="./img/img-pessoa-lupa.png" alt="Pessoa com uma lupa">
+                <h1 class="apresentacao__secundario__informacoes__titulo">Nenhuma mensagem encontrada</h1>
+                <p class="apresentacao__secundario__informacoes__subtitulo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
     </main>
     <footer>
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,57 +9,46 @@
 
 body{
     box-sizing: border-box;
+    background-color: #F3F5FC
 }
 
 .cabecalho {
     margin: 2.5rem 0 0 2.5rem;
 }
 
-.principal {
+.apresentacao {
     display: flex;
 }
 
-.principal__criptografia__texto__cripto {
+.apresentacao__principal__texto__cripto {
     width: 680px;
     height: 683px;
+    background-color: #F3F5FC;
     border: none;
-    text-align: start;
-    justify-items: flex-start;
 }
 
-.principal__criptografia__texto__cripto::placeholder {
-    position: absolute;
-    top: 0; 
-    left: 0;
-}
-
-.principal__criptografia__texto__cripto::marker {
-    position: absolute;
-    top: 0; 
-    left: 0;
-}
-
-.principal__criptografia {
+.apresentacao__principal {
     display: flex;
     flex-direction: column;
     padding: 10.5rem 15rem;
     justify-content: center;
+    width: 52%;
 }
 
-.principal__criptografia__aviso {
+.apresentacao__principal__aviso {
     display: flex;
     gap: 1.5rem;
 }
 
-.principal__botoes {
+.apresentacao__botoes {
     display: flex;
     justify-content: space-between;
+    gap: 1.5rem;
 }
 
-.principal__botoes__criptografar {
+.apresentacao__principal__botoes {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
     color: #FFFFFF;
     background-color: #0A3871;
     width: 47%;
@@ -67,4 +59,34 @@ body{
     border-radius: 24px;
     text-decoration: none;
     /* font-family: var(--fonte-secundaria); */
+}
+
+.apresentacao__secundario {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    width: 400px;
+    height: 944px;
+    align-items: center;
+}
+
+.apresentacao__secundario__informacoes {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 32px;
+}
+
+.apresentacao__secundario__informacoes__titulo {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    gap: 32px;
+}
+
+.apresentacao__secundario__informacoes__subtitulo {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    gap: 32px;
 }
