@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: none; */
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    margin: 2.5rem 0 0 2.5rem;
+}
+
+.principal {
+    display: flex;
+}
+
+.principal__criptografia__texto__cripto {
+    width: 680px;
+    height: 683px;
+    border: none;
+    text-align: start;
+    justify-items: flex-start;
+}
+
+.principal__criptografia__texto__cripto::placeholder {
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+.principal__criptografia__texto__cripto::marker {
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+.principal__criptografia {
+    display: flex;
+    flex-direction: column;
+    padding: 10.5rem 15rem;
+    justify-content: center;
+}
+
+.principal__criptografia__aviso {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.principal__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal__botoes__criptografar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #FFFFFF;
+    background-color: #0A3871;
+    width: 47%;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #0A3871;
+    padding: 1.5rem;
+    border-radius: 24px;
+    text-decoration: none;
+    /* font-family: var(--fonte-secundaria); */
+}
