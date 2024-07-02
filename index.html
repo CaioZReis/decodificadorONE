@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Criptador de Texto</title>
+    <script src="app.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -19,21 +20,24 @@
                 <p>Apenas letras minusculas e sem acento</p>
             </div>
             <div class="apresentacao__botoes">
-                <button onclick="" class="apresentacao__principal__botoes">Criptografar</button>
-                <button onclick="" class="apresentacao__principal__botoes">Descriptografar</button>
+                <button type="button" onclick="criptografar()" class="apresentacao__principal__botao__cripto" >Criptografar</button>
+                <button type="button" onclick="descriptografar()" class="apresentacao__principal__botao__descripto">Descriptografar</button>
             </div>
         </section>
         <section class="apresentacao__secundario">
-            <!-- <textarea type="text"></textarea> -->
-            <div class="apresentacao__secundario__informacoes">
+            <div class="apresentacao__secundario__texto">
+                <textarea type="text" class="apresentacao__secundario__texto__descripto"></textarea>
+                <button type="button" onclick="copiar()" class="apresentacao__principal__botao__copiar">Copiar</button>
+            </div>
+            <!-- <div class="apresentacao__secundario__informacoes">
                 <img src="./img/img-pessoa-lupa.png" alt="Pessoa com uma lupa">
                 <h1 class="apresentacao__secundario__informacoes__titulo">Nenhuma mensagem encontrada</h1>
                 <p class="apresentacao__secundario__informacoes__subtitulo">Digite um texto que você deseja criptografar ou descriptografar.</p>
-            </div>
+            </div> -->
         </section>
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p>Criado por Caio no Ano de 2024 - ProgramaONE</p>
     </footer>
 </body>
 </html>
