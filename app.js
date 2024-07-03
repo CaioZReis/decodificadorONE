@@ -20,7 +20,7 @@ function descriptografar() {
     var origemTextArea = document.getElementById('origemTextArea').value;
     var textoAlterado = origemTextArea
         .replace(/enter/g, 'e')
-        .replace(/ime/g, 'i')
+        .replace(/imes/g, 'i')
         .replace(/ai/g, 'a')
         .replace(/ober/g, 'o')
         .replace(/ufat/g, 'u');
@@ -41,6 +41,7 @@ function copiar() {
     tempTextArea.setSelectionRange(0, 99999);
     document.execCommand ('copy');
     document.body.removeChild(tempTextArea);
+    // showMessage("Mensagem copiada");
 }
 
 function transformarTextoSecundario() {
