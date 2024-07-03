@@ -36,6 +36,7 @@ body{
     color: #0A3871;
     background-color: #F3F5FC;
     border: none;
+    resize: none;
 }
 
 .apresentacao__principal__texto__cripto::placeholder {
@@ -127,6 +128,7 @@ body{
     font-size: 3.1rem;
     color: #495057;
     border: none;
+    resize: none;
 }
 
 .apresentacao__secundario__texto__descripto:focus,  .apresentacao__principal__texto__cripto{
