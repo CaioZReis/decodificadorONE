@@ -25,6 +25,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 10rem;
+    text-align: center;
+    align-items: center;
 }
 
 .cabecalho-estilo-alternativo {
