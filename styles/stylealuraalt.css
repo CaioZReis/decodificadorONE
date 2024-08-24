@@ -420,7 +420,7 @@ input:checked + .slider:before {
 @media (max-width: 400px) {
     
     .rodape {
-        margin-top: 80%;
+        margin-top: 20%;
         padding: 1rem;
     }
 
