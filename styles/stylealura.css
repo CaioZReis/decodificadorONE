@@ -254,6 +254,7 @@ input:checked + .slider:before {
     font-weight: 400;
     font-size: 3.1rem;
     color: var(--cor-texto);
+    background-color: var(--cor-fundo-secundario);
     border: none;
     resize: none;
 }
@@ -418,15 +419,12 @@ input:checked + .slider:before {
 
 @media (max-width: 400px) {
     
+    .rodape {
+        margin-top: 20%;
+        padding: 1rem;
+    }
+
     .rodape-fixo-informacao {
         width: 80%;
-    }
-}
-
-@media (max-width: 375px) {
-
-    .rodape {
-        margin-top: 25%;
-        padding: 1rem;
     }
 }
