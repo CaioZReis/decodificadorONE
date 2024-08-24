@@ -417,6 +417,13 @@ input:checked + .slider:before {
     }
 }
 
+@media (max-width: 400px) {
+    
+    .rodape-fixo-informacao {
+        width: 80%;
+    }
+}
+
 @media (max-width: 375px) {
 
     .rodape {
